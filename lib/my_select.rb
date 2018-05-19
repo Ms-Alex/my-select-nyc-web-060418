@@ -7,5 +7,5 @@ def my_select(collection)
     new_array << collection[i] if true
     i += 1
   end
-  collection
+  new_array
 end
