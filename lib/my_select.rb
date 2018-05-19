@@ -8,5 +8,5 @@ def my_select(collection)
     new_array << (yield collection[i]) if true
     i += 1
  end
-  new_array
+ new_array
 end
